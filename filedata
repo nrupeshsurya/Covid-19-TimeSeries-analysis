@@ -1,0 +1,31 @@
+ChIJOwE7_GTtwokRFq0uOwLSE9g ---> New York County
+ChIJgav5pFbxwokRno6Tc5x2GL8 ---> Queens County
+ChIJOwE7_GTtwokRs75rhW4_I6M ---> Kings County
+ChIJBUEf6ovgwokRwlazSIxIpsk ---> Bronx County 
+ChIJOwE7_GTtwokR1V_vES61lRI ---> Richmond County
+
+
+county	Kings	County	driving		New	York	United	States
+county	Kings	County	transit		New	York	United	States
+county	Kings	County	walking		New	York	United	States
+
+county	Bronx	County	driving		New	York	United	States
+county	Bronx	County	transit		New	York	United	States
+county	Bronx	County	walking		New	York	United	States
+
+county	Queens	County	driving		New	York	United	States
+county	Queens	County	transit		New	York	United	States
+county	Queens	County	walking		New	York	United	States
+
+county	Richmond	County	driving	New	York
+county	Richmond	County	driving	North	Carolina
+county	Richmond	County	transit	New	York
+county	Richmond	County	walking	Georgia	United
+county	Richmond	County	walking	New	York
+
+
+
+city	New	York	City	driving	NYC	New	York	United	States
+city	New	York	City	transit	NYC	New	York	United	States
+city	New	York	City	walking	NYC	New	York	United	States
+

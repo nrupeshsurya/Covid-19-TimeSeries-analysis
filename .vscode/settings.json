@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "Env/bin/python3.8",
+    "jupyter.jupyterServerType": "local"
+}
