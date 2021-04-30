@@ -1,0 +1,5 @@
+Nrupesh Surya U: Setup the ML pipeline for training and testing, EDA, Analysed set of models using NYC Data and national data, report. 
+
+Abhinav Basu and Sarvesh Borkar: Analysed models using national data and carried out feature engineering to select best set of features for prediction. Experimented with the splitting of Testing and Training Data to find out the best splitting parameters. Analysed the scenario if there was no vaccinations and effect of the second wave on number of cases.
+
+Ashwani Singh: Data Collection, Data Cleanup and Pre-Processing and reporting.
