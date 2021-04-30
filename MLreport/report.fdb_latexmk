@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1619786248 "/home/flamealchemist/projects/NYC/MLreport/report.tex" "/home/flamealchemist/projects/NYC/MLreport/report.pdf" "report" 1619786336
+["pdflatex"] 1619788487 "/home/flamealchemist/projects/NYC/MLreport/report.tex" "/home/flamealchemist/projects/NYC/MLreport/report.pdf" "report" 1619788536
   "/etc/texmf/web2c/texmf.cnf" 1619442177 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/flamealchemist/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1440.600pk" 1619723792 16944 e6882739dfa56e2b4fa8e89a9847fde6 ""
-  "/home/flamealchemist/projects/NYC/MLreport/report.aux" 1619786250 3187 560421aba7385d6b3051624c0afcb93b ""
-  "/home/flamealchemist/projects/NYC/MLreport/report.tex" 1619786336 17123 c062b527da70e01e13da3f15d6c0e71a ""
+  "/home/flamealchemist/projects/NYC/MLreport/report.aux" 1619788489 3187 560421aba7385d6b3051624c0afcb93b ""
+  "/home/flamealchemist/projects/NYC/MLreport/report.tex" 1619788536 17125 07a26f02ec5883878ac05ff27a9ef7f4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1440.tfm" 1136768653 1536 3290a75021d32d016616fe527bc9884c ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -98,13 +98,13 @@
   "images/usa/tests.png" 1619746182 142664 6d9e99784430b6af6d885471996447cd ""
   "images/usa/vaccination.png" 1619746182 58297 cd4d56ce4792d50dfcccd1cbcc4a63cc ""
   "images/usa/vaccination_analysis.png" 1619784720 366225 26e1902f612e5fb6380a9c666034aa22 ""
-  "report.aux" 1619786250 3187 560421aba7385d6b3051624c0afcb93b "pdflatex"
-  "report.out" 1619786248 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "report.tex" 1619786336 17123 c062b527da70e01e13da3f15d6c0e71a ""
+  "report.aux" 1619788489 3187 560421aba7385d6b3051624c0afcb93b "pdflatex"
+  "report.out" 1619788487 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "report.tex" 1619788536 17125 07a26f02ec5883878ac05ff27a9ef7f4 ""
   (generated)
   "report.pdf"
+  "report.out"
   "report.aux"
   "/home/flamealchemist/projects/NYC/MLreport/report.log"
-  "report.log"
-  "report.out"
   "/home/flamealchemist/projects/NYC/MLreport/report.pdf"
+  "report.log"
