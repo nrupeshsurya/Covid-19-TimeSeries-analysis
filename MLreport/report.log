@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.4.26)  30 APR 2021 03:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.4.26)  30 APR 2021 07:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/flamealchemist/projects/MLreport/report.tex
-(/home/flamealchemist/projects/MLreport/report.tex
+**/home/flamealchemist/projects/NYC/MLreport/report.tex
+(/home/flamealchemist/projects/NYC/MLreport/report.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -253,7 +253,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
 \Hy@SectionHShift=\skip57
-) (/home/flamealchemist/projects/MLreport/report.aux)
+) (/home/flamealchemist/projects/NYC/MLreport/report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -310,7 +310,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 10.
 LaTeX Info: Redefining \pageref on input line 10.
 LaTeX Info: Redefining \nameref on input line 10.
- (/home/flamealchemist/projects/MLreport/report.out) (/home/flamealchemist/projects/MLreport/report.out)
+ (/home/flamealchemist/projects/NYC/MLreport/report.out) (/home/flamealchemist/projects/NYC/MLreport/report.out)
 \@outlinefile=\write3
 \openout3 = `report.out'.
 
@@ -319,119 +319,130 @@ LaTeX Info: Redefining \nameref on input line 10.
 LaTeX Warning: No \author given.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--39
+Underfull \hbox (badness 10000) in paragraph at lines 27--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--39
+Underfull \hbox (badness 10000) in paragraph at lines 27--37
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 41--51
+Underfull \hbox (badness 10000) in paragraph at lines 39--49
 
  []
 
-<images/deaths.png, id=15, 722.7pt x 578.16pt>
-File: images/deaths.png Graphic file (type png)
-<use images/deaths.png>
-Package pdftex.def Info: images/deaths.png  used on input line 56.
+<images/usa/deaths and cases.png, id=15, 722.7pt x 578.16pt>
+File: images/usa/deaths and cases.png Graphic file (type png)
+<use images/usa/deaths and cases.png>
+Package pdftex.def Info: images/usa/deaths and cases.png  used on input line 54.
 (pdftex.def)             Requested size: 292.4934pt x 213.39536pt.
 [2]
-<images/tests.png, id=24, 722.7pt x 578.16pt>
-File: images/tests.png Graphic file (type png)
-<use images/tests.png>
-Package pdftex.def Info: images/tests.png  used on input line 67.
+<images/usa/tests.png, id=23, 722.7pt x 578.16pt>
+File: images/usa/tests.png Graphic file (type png)
+<use images/usa/tests.png>
+Package pdftex.def Info: images/usa/tests.png  used on input line 65.
 (pdftex.def)             Requested size: 292.4934pt x 213.39536pt.
-<images/google.png, id=25, 722.7pt x 578.16pt>
-File: images/google.png Graphic file (type png)
-<use images/google.png>
-Package pdftex.def Info: images/google.png  used on input line 74.
+<images/usa/google.png, id=24, 722.7pt x 578.16pt>
+File: images/usa/google.png Graphic file (type png)
+<use images/usa/google.png>
+Package pdftex.def Info: images/usa/google.png  used on input line 72.
 (pdftex.def)             Requested size: 234.00354pt x 170.71451pt.
- [3 </home/flamealchemist/projects/MLreport/images/deaths.png> </home/flamealchemist/projects/MLreport/images/tests.png>]
-<images/apple.png, id=34, 722.7pt x 578.16pt>
+ [3 </home/flamealchemist/projects/NYC/MLreport/images/usa/deaths and cases.png> </home/flamealchemist/projects/NYC/MLreport/images/usa/tests.png>]
+<images/apple.png, id=33, 722.7pt x 578.16pt>
 File: images/apple.png Graphic file (type png)
 <use images/apple.png>
-Package pdftex.def Info: images/apple.png  used on input line 85.
+Package pdftex.def Info: images/apple.png  used on input line 84.
 (pdftex.def)             Requested size: 234.00354pt x 170.71451pt.
-<images/sliding_window.png, id=35, 576.65437pt x 331.99031pt>
+<images/usa/stringecy index.png, id=34, 722.7pt x 578.16pt>
+File: images/usa/stringecy index.png Graphic file (type png)
+<use images/usa/stringecy index.png>
+Package pdftex.def Info: images/usa/stringecy index.png  used on input line 91.
+(pdftex.def)             Requested size: 234.00354pt x 170.71451pt.
+ [4 </home/flamealchemist/projects/NYC/MLreport/images/usa/google.png> </home/flamealchemist/projects/NYC/MLreport/images/apple.png>]
+<images/usa/vaccination.png, id=43, 722.7pt x 578.16pt>
+File: images/usa/vaccination.png Graphic file (type png)
+<use images/usa/vaccination.png>
+Package pdftex.def Info: images/usa/vaccination.png  used on input line 98.
+(pdftex.def)             Requested size: 234.00354pt x 170.71451pt.
+<images/sliding_window.png, id=44, 576.65437pt x 331.99031pt>
 File: images/sliding_window.png Graphic file (type png)
 <use images/sliding_window.png>
-Package pdftex.def Info: images/sliding_window.png  used on input line 93.
+Package pdftex.def Info: images/sliding_window.png  used on input line 106.
 (pdftex.def)             Requested size: 234.00128pt x 170.71602pt.
- [4 </home/flamealchemist/projects/MLreport/images/google.png> </home/flamealchemist/projects/MLreport/images/apple.png>]
-<images/sliding_window_2.png, id=44, 572.89032pt x 331.99031pt>
+ [5 </home/flamealchemist/projects/NYC/MLreport/images/usa/stringecy index.png> </home/flamealchemist/projects/NYC/MLreport/images/usa/vaccination.png>]
+<images/sliding_window_2.png, id=53, 572.89032pt x 331.99031pt>
 File: images/sliding_window_2.png Graphic file (type png)
 <use images/sliding_window_2.png>
-Package pdftex.def Info: images/sliding_window_2.png  used on input line 102.
+Package pdftex.def Info: images/sliding_window_2.png  used on input line 115.
 (pdftex.def)             Requested size: 234.00365pt x 170.71602pt.
- [5 </home/flamealchemist/projects/MLreport/images/sliding_window.png (PNG copy)> </home/flamealchemist/projects/MLreport/images/sliding_window_2.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 108--120
-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+ [6 </home/flamealchemist/projects/NYC/MLreport/images/sliding_window.png (PNG copy)> </home/flamealchemist/projects/NYC/MLreport/images/sliding_window_2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 121--133
 
  []
 
 [7]
-Overfull \hbox (65.14212pt too wide) in paragraph at lines 145--164
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+
+ []
+
+[8]
+Overfull \hbox (65.14212pt too wide) in paragraph at lines 158--177
 [][] 
  []
 
 
-Overfull \hbox (53.39224pt too wide) in paragraph at lines 165--184
+Overfull \hbox (53.39224pt too wide) in paragraph at lines 178--197
 [][] 
  []
 
 
-Overfull \hbox (49.47562pt too wide) in paragraph at lines 185--204
+Overfull \hbox (49.47562pt too wide) in paragraph at lines 198--217
 [][] 
  []
 
-[8] [9]
-<images/1_day.png, id=83, 2321.67375pt x 1328.965pt>
+[9] [10]
+<images/1_day.png, id=92, 2321.67375pt x 1328.965pt>
 File: images/1_day.png Graphic file (type png)
 <use images/1_day.png>
-Package pdftex.def Info: images/1_day.png  used on input line 228.
+Package pdftex.def Info: images/1_day.png  used on input line 241.
 (pdftex.def)             Requested size: 389.96768pt x 227.60416pt.
-<images/7_day.png, id=84, 2321.67375pt x 1328.965pt>
+<images/7_day.png, id=93, 2321.67375pt x 1328.965pt>
 File: images/7_day.png Graphic file (type png)
 <use images/7_day.png>
-Package pdftex.def Info: images/7_day.png  used on input line 234.
+Package pdftex.def Info: images/7_day.png  used on input line 247.
 (pdftex.def)             Requested size: 389.96768pt x 227.60416pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
- [10 </home/flamealchemist/projects/MLreport/images/1_day.png> </home/flamealchemist/projects/MLreport/images/7_day.png>] [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
- (/home/flamealchemist/projects/MLreport/report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 240.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
+ [11 </home/flamealchemist/projects/NYC/MLreport/images/1_day.png> </home/flamealchemist/projects/NYC/MLreport/images/7_day.png>] [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
+ (/home/flamealchemist/projects/NYC/MLreport/report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 253.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 253.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 240.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
  ) 
 Here is how much of TeX's memory you used:
- 7724 strings out of 483107
- 127768 string characters out of 5964630
+ 7740 strings out of 483107
+ 128348 string characters out of 5964630
  485542 words of memory out of 5000000
- 22585 multiletter control sequences out of 15000+600000
+ 22595 multiletter control sequences out of 15000+600000
  538358 words of font info for 45 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 50i,7n,48p,311b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,7n,48p,315b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/flamealchemist/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on /home/flamealchemist/projects/MLreport/report.pdf (11 pages, 1397398 bytes).
+Output written on /home/flamealchemist/projects/NYC/MLreport/report.pdf (12 pages, 1406327 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 150 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

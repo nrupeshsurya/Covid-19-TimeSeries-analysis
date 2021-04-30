@@ -17,9 +17,7 @@
 %--------------------------------------------------------------------------------
 \section*{Abstract}
 The problem statement requires a working model for forecasting
-the spread of COVID-19 in the United States of America. For this 
-project, we will restrict ourselves to New York City which consists of 
-5 counties. The data was collected from Official government sources 
+the spread of COVID-19 in the United States of America. The data was collected from Official government sources 
 as well as private giants such as Google and Apple who collect mobility
 data. The dataset collected ranges from March 2020 to April 2021 and contains
 27 features which are all time-series data.   
@@ -34,12 +32,12 @@ statistical models like ARIMA, SARIMA and recently developed FBProphet by Facebo
 Time series forecasting can be divided into univariate and multivariate. We will
 be focusing on multivariate time series forecasting. 
 \\\\
-Our goal is to forecast New cases for the city of New York. For this, we transformed our 
+Our goal is to forecast New cases for the United States of America. For this, we transformed our 
 time series dataset to a suitable supervised machine learning problem. 
 
 \section*{Data Collection}
-Data was collected from the New York City government \href{https://www1.nyc.gov/site/doh/covid/covid-19-data.page}{website}. 
-The data collected from this source included new cases, deaths, testing, number of people hospitalized. 
+Data was collected from the Our World in Data \href{https://ourworldindata.org/coronavirus-source-data}{website}. 
+The data collected from this source included new cases, deaths, testing, vaccinations. 
 The data had different start dates so the data was merged by removing the missing data and 
 thus the time series starts from March, 2020.   
 \\\\
@@ -53,25 +51,25 @@ were focused just on the means of transportation.
 The COVID-19 Cases and Death Counts are visualized in the following plots.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.75\textwidth,height=75mm]{images/deaths.png}
-    \caption{New Cases and Deaths in NYC}
+    \includegraphics[width=0.75\textwidth,height=75mm]{images/usa/deaths and cases.png}
+    \caption{New Cases and Deaths in USA}
 \end{figure}
 
 
 Figure 1 illustrates the fatality rate and infection rate of COVID-19
 and gives a glimplse on exponential growth.
 
-The testing data with splits for positive and antigen testing is shown below.
+The testing data for the entire country is shown below.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.75\textwidth,height=75mm]{images/tests.png}
-    \caption{Tests, positive tests and antigen tests in NYC}
+    \includegraphics[width=0.75\textwidth,height=75mm]{images/usa/tests.png}
+    \caption{Tests in USA}
 \end{figure}
 Google Mobility contains data which is location
 centric such as parks, grocery stories and so on. 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth,height=60mm]{images/google.png}
+    \includegraphics[width=0.6\textwidth,height=60mm]{images/usa/google.png}
     \caption{Google Mobility data}
 \end{figure}
 From Figure 3, we notice that almost all numbers are down from baseline
@@ -79,11 +77,26 @@ except residential, which means people have been staying at home. The other
 exception is Parks where people seemingly visited more than usual after 
 lockdown which also plummets down soon enough embracing the second wave.
 \\
-Meanwhile Apple mobility is more transport oriented and contains driving, walking and transit data.
+Meanwhile Apple mobility is more transport oriented and contains driving, walking and transit data which 
+shows similar trends.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth,height=60mm]{images/apple.png}
     \caption{Apple Mobility data}
+\end{figure}
+The Stringency Index is a metric being used by the Oxford COVID-19 Government Response Tracker.
+It is a number from 0 to 100 that reflects these indicators. A higher index score indicates a higher level of stringency.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth,height=60mm]{images/usa/stringecy index.png}
+    \caption{Stringency Index of USA}
+\end{figure}
+USA began its vaccination program at the end of last year. The following plot shows us 
+people who got a vaccine shot as well as people who got fully vaccinated. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth,height=60mm]{images/usa/vaccination.png}
+    \caption{COVID-19 vaccinations in USA}
 \end{figure}
 \section*{Data Representation}
 To convert this time series dataset into a supervised machine 
@@ -105,14 +118,14 @@ We need to extend this method to predict days further ahead in the future.
 Thus, the window length becomes a hyperparameter which can be tuned further.
 
 \section*{Data Preprocessing}
-The entire dataset contained 410 data-points from March-2020 to April-2021. The window 
-length was setup to be 7. This meant we had a total of 403 data points usable since we can 
-only start predicting from the 7th day. The test data consisted of the last 60 data-points.
+The entire dataset contained 416 data-points from March-2020 to April-2021. The window 
+length was setup to be 7. This meant we had a total of 409 data points usable since we can 
+only start predicting from the 7th day. The test data consisted of the last 15 data-points and the
+rest was dedicated for training.
 The dataset contains 27 columns for each day in the time series.
 \\\\
 The data was coming from multiple sources and had different
-start and end dates. Missing data was removed(only from the beginning and end dates). Mobility data from Google was available county wise and not city wise. For this,
-we took the day-wise average of each of the 5 counties in NYC to make up for it. Data was scaled
+start and end dates. Missing data was removed(only from the beginning and end dates). Data was scaled
 using standard scalar from Sklearn. Transforming the data into the above-mentioned sliding-window
 representation was necessary before the fitting the models.
 The training and test datasets further needed transformation from a 3D matrix to a 2D matrix
